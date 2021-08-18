@@ -1,20 +1,17 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Works from "../components/Works";
-import About from "../components/About";
+import React from "react";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
-import { useContext, useEffect } from "react";
+import Header from "../components/Header";
+import Projects from "../components/Projects";
+import { useContext } from "react";
 import { MenuContext } from "../ContextApi/openMenu";
+import Head from "next/head";
 
-export default function Home() {
+export default function projects() {
   const { setOpenMenu } = useContext(MenuContext);
-
   return (
-    <div className="lg:bg-heroBg bg-right-top  bg-no-repeat bg-contain hero ">
+    <div>
       <Head>
-        <title>Vince | Front End Developer</title>
+        <title>EdTosoy | Portfolio</title>
         <meta
           name="description"
           content="I'm a software engineer based in Manila, Philippines specializing in building exceptional websites, applications, and everything in between. I started web development in 2018, after doing Front-end, I switched to Full Stack development, where I work with a variety of meaningful projects. I always build realistic websites and real world projects, not just simple todo list, calendar, calculator and all of NextJS TypeScript HTML React JavaScript CSS Tailwind Node PostgreSQL GraphQL Apollo  MongoDB 
@@ -28,10 +25,7 @@ export default function Home() {
       </Head>
       <Header />
       <div onMouseOver={() => setOpenMenu(false)}>
-        <Hero />
-        <Works />
-        <About />
-        <Contact />
+        <Projects />
         <Footer />
       </div>
     </div>

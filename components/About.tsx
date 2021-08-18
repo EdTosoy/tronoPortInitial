@@ -59,7 +59,7 @@ export default function About() {
                   </div>
                 ))}
               </div>
-              <Link href="https://github.com/EdTosoy">
+              <Link href="https://github.com/VincentCarlosTrono/">
                 <a target="_blank" rel="noopener noreferrer">
                   <button className="py-2 sm:py-3 px-6 mt-5 sm:mt-8 rounded-full secondary3-btn border-2 text-lightBlue border-lightBlue">
                     Learn More

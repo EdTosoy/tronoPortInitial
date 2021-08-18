@@ -100,14 +100,14 @@ export default function Contact() {
                 For any type of Query & Discussion.
               </h1>
               <div className="flex justify-between items-center mt-8 ">
-                <Link href="mailto:ed.tosoy@gmail.com" passHref>
+                <Link href="mailto:trono.vincentcii@gmail.com" passHref>
                   <button className="py-2 sm:py-3 px-6  rounded-full secondary3-btn border-2  text-lightBlue border-lightBlue ">
                     My Email
                   </button>
                 </Link>
                 <div className="flex items-center">
                   <a
-                    href="https://www.facebook.com/EdTosoy"
+                    href="https://www.facebook.com/tronovincentcarlos"
                     rel="noreferrer"
                     target="_blank"
                     aria-label="input"
@@ -117,7 +117,7 @@ export default function Contact() {
                     </div>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/edtosoy/"
+                    href="https://www.linkedin.com/in/vincent-trono-668462191/"
                     rel="noreferrer"
                     target="_blank"
                     aria-label="input"
@@ -128,7 +128,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://twitter.com/EdTosoy"
+                    href="https://twitter.com/TronoVincent"
                     rel="noreferrer"
                     target="_blank"
                     aria-label="input"

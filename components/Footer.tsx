@@ -38,7 +38,7 @@ export default function Footer() {
       <main className="col-start-2 col-end-3 flex w-full justify-between  ">
         <div className="w-4/12">
           <div className="flex items-center -ml-1">
-            <Image src={"/media/logo.png"} width={50} height={30} />
+            <Image src={"/media/logo.png"} width={50} height={30} alt="logo" />
             <h1 className="text-darkBlue font-bold  text-2xl">Vince</h1>
           </div>
           <p>Vincent Carlos Trono</p>

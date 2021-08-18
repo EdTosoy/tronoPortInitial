@@ -43,8 +43,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-
-        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
       </Html>
     );
   }

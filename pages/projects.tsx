@@ -7,6 +7,7 @@ import { MenuContext } from "../ContextApi/openMenu";
 import Head from "next/head";
 
 export default function projects() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { setOpenMenu } = useContext(MenuContext);
   return (
     <div>

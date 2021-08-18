@@ -45,7 +45,7 @@ export default function Header() {
         <div className="col-start-1  col-end-4">
           <div className="top-16 border-t border-b shadow-md absolute w-full  text-center   p-6 bg-white ">
             {navs.map(({ name, pathname }) => (
-              <Link href={pathname} key={name}>
+              <Link href={pathname} key={name} passHref>
                 <nav className="cursor-pointer navigation my-4 hover:text-red-400 ">
                   {name}
                 </nav>
@@ -60,7 +60,7 @@ export default function Header() {
       <main
         className={` col-start-2 col-end-3  my-2  flex items-center justify-between  `}
       >
-        <Link href="/">
+        <Link href="/" passHref>
           <div className="cursor-pointer flex items-center ">
             <Image
               src="/media/logo.png"
@@ -79,13 +79,13 @@ export default function Header() {
         </Link>
         <div className="hidden md:flex items-center  ">
           {navs.map(({ name, pathname }) => (
-            <Link href={pathname} key={name}>
+            <Link href={pathname} key={name} passHref>
               <nav className="mr-10 cursor-pointer navigation hover:text-lightBlue">
                 {name}
               </nav>
             </Link>
           ))}
-          <Link href="mailto:trono.vincentcii@gmail.com">
+          <Link href="mailto:trono.vincentcii@gmail.com" passHref>
             <button className="py-2 px-5 border-2 border-lightBlue rounded-full secondary-btn ">
               Contact Me
             </button>

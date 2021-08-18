@@ -19,10 +19,10 @@ export default function Hero() {
           </p>
           <p className="sm:text-base  text-gray-300  max-w-md">
             Website development is a kind of job that you need time, focus and
-            especially hard work, being web developer make me happy because it's
-            my dream ever since so i am willing to pursue my dream by creating a
-            wonderful projects and also i am willing to learn anytime to make an
-            unexceptional website
+            especially hard work, being web developer make me happy because
+            it`&apos;`s my dream ever since so i am willing to pursue my dream
+            by creating a wonderful projects and also i am willing to learn
+            anytime to make an unexceptional website
           </p>
           <div className="md:flex items-center justify-between max-w-sm gap-4">
             <Link href="https://github.com/brixx21/resume/raw/master/EdTosoy-Developer-Resume.pdf">

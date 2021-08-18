@@ -47,7 +47,7 @@ export default function About() {
                 and Gain Insight{" "}
               </h1>
               <p className=" text-sm sm:text-base text-gray-700">
-                Here are a few technologies I've been working with recently:
+                Here are a few technologies I have been working with recently:
               </p>
               <div className="grid grid-cols-3 mt-1">
                 {logos.map(({ name, svg }) => (

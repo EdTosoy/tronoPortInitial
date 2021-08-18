@@ -10,7 +10,7 @@ export default function Contact() {
   const [submited, setSubmited] = useState(false);
   return (
     <section
-      className="grid-container bg-Gray  py-44 sm:mt-60 md:mt-0 py-10 bg-ContactBg  bg-left bg-no-repeat bg-contain "
+      className="grid-container bg-Gray  sm:mt-60 md:mt-0 py-10 bg-ContactBg  bg-left bg-no-repeat bg-contain "
       id="Get-In-Touch"
       data-aos="fade-down"
       data-aos-duration="1000"
@@ -100,7 +100,7 @@ export default function Contact() {
                 For any type of Query & Discussion.
               </h1>
               <div className="flex justify-between items-center mt-8 ">
-                <Link href="mailto:ed.tosoy@gmail.com">
+                <Link href="mailto:ed.tosoy@gmail.com" passHref>
                   <button className="py-2 sm:py-3 px-6  rounded-full secondary3-btn border-2  text-lightBlue border-lightBlue ">
                     My Email
                   </button>
@@ -108,7 +108,7 @@ export default function Contact() {
                 <div className="flex items-center">
                   <a
                     href="https://www.facebook.com/EdTosoy"
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     aria-label="input"
                   >
@@ -118,7 +118,7 @@ export default function Contact() {
                   </a>
                   <a
                     href="https://www.linkedin.com/in/edtosoy/"
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     aria-label="input"
                   >
@@ -129,7 +129,7 @@ export default function Contact() {
 
                   <a
                     href="https://twitter.com/EdTosoy"
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     aria-label="input"
                   >

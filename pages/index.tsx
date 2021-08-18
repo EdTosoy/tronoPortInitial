@@ -5,7 +5,8 @@ import Works from "../components/Works";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
+import Script from "next/script";
 import { MenuContext } from "../ContextApi/openMenu";
 
 export default function Home() {
@@ -34,6 +35,10 @@ export default function Home() {
         <Contact />
         <Footer />
       </div>
+      <Script
+        async
+        src="https://unpkg.com/boxicons@latest/dist/boxicons.js"
+      ></Script>
     </div>
   );
 }
